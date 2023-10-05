@@ -62,9 +62,8 @@ const Count: React.FC = () => {
       />
       {remainingTime !== null && (
         <h1>
-          Remaining Time: {remainingTime.days} days, {remainingTime.hours}{" "}
-          hours, {remainingTime.minutes} minutes, {remainingTime.seconds}{" "}
-          seconds
+          Şafak: {remainingTime.days} - {remainingTime.hours} -{" "}
+          {remainingTime.minutes} - {remainingTime.seconds}{" "}
         </h1>
       )}
     </div>
